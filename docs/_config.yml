@@ -1,0 +1,6 @@
+title: github-release
+description: Drone plugin provided by Webhippie
+baseurl: /github-release
+
+email: mail@webhippie.de
+theme: jekyll-theme-cayman

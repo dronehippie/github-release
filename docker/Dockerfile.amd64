@@ -1,0 +1,9 @@
+FROM dronehippie/base:amd64
+
+LABEL maintainer="Thomas Boerger <thomas@webhippie.de>" \
+  org.opencontainers.image.title="Drone GitHub Release" \
+  org.opencontainers.image.vendor="Webhippie" \
+  org.opencontainers.image.documentation="https://dronehippie.github.io/github-release/"
+
+ENTRYPOINT ["/bin/drone-github-release"]
+ADD bin/drone-github-release /bin/
